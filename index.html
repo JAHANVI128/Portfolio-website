@@ -107,6 +107,85 @@
         font-size: 2.5rem;
       }
 
+      .second .box{
+        background: white;
+        width: 120vh;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+
+      .second .vertical{
+        height: 90px;
+        width: 1px;
+        background-color: white;
+        margin: 0 120px;
+      }
+
+      .img{
+        width: 62px;
+        position: relative;
+        top: -66px;
+        left: -22px;
+      }
+
+      .img2{
+        width: 112px;
+        position: relative;
+        top: -50px;
+        left: -55px;
+      }
+
+      .img3{
+        width: 62px;
+        position: relative;
+        top: -66px;
+        left: -30px;
+      }
+
+      .title{
+        position: relative;
+        top: 30px;
+        left: -40px;
+        width: 150px;
+        font-size: 20px;
+      }
+
+      .title2{
+        position: relative;
+        top: 48px;
+        left: -40px;
+        width: 150px;
+        font-size: 20px;
+      }
+
+      .desc{
+        position: relative;
+        top: 30px;
+        left: -32px;
+        width: 130px;
+        color: #afafdd;
+        font-size: 12px;
+      }
+
+      .desc2{
+        position: relative;
+        top: 50px;
+        left: -32px;
+        width: 130px;
+        color: #afafdd;
+        font-size: 12px;
+      }
+
+      footer{
+        background-color: #70708d;
+        
+      }
+
+      .footer{
+        display: flex;
+      }
+
     </style>
   </head>
   <body>
@@ -135,22 +214,62 @@
         </div>
         
         <div class="rightSection">
-          <img src="PngItem_5237005.png" alt="" />
+          <img src="PngItem_5237005.png" alt="developer" />
         </div>
       </section><hr>
 
       <section class="second">
         <span class="text-color">What I have done so far</span>
         <h1>Work Experience</h1>
-        <div class="box"></div>
+        <div class="box">
+            <div class="vertical">
+                <img class="img" src="developer.png" alt="">
+                <div class="title">
+                    Frontend Web Developer Intern(May-June 2023)
+                </div><br>
+                <div class="desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id aliquam cum ut incidunt minima culpa impedit temporibus dolore similique in.
+                </div>
+            </div>
+
+            <div class="vertical">
+                <img class="img2" src="MERN-logo.png" alt="">
+                <div class="title2">
+                    Full Stack Web Developer Intern(July-Aug 2023)
+                </div><br>
+                <div class="desc2">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id aliquam cum ut incidunt minima culpa impedit temporibus dolore similique in.
+                </div>
+            </div>
+
+            <div class="vertical">
+                <img class="img3" src="pngegg.png" alt="">
+                <div class="title">
+                    Reactjs Developer Intern(July-Aug 2023)
+                </div><br>
+                <div class="desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id aliquam cum ut incidunt minima culpa impedit temporibus dolore similique in.
+                </div>
+            </div>
+        </div>
       </section>
     </main>
 
+    <!-- <footer>
+        <div class="footer">
+            <div class="footer1">
+                <h3>Jahanvi's Portfolio</h3>
+            </div>
+            <div class="footer2"></div>
+            <div class="footer3"></div>
+            <div class="footer4"></div>
+        </div>
+    </footer> -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
       var typed = new Typed("#element", {
-        strings: ["learner.", "Web Developer.", "App Developer."],
-        typeSpeed: 50,
+        strings: ["Learner.", "Web Developer.", "App Developer."],
+        typeSpeed: 80,
       });
     </script>
   </body>
